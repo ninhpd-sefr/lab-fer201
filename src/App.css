@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.film-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.film-item {
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+  height: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.film-item:hover {
+  transform: scale(1.05);
+}
+
+.film-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.film-details {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.film-details h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.film-details p {
+  margin: 5px 0;
+  color: #777;
+}
