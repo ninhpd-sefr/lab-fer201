@@ -31,12 +31,12 @@ h2 {
   flex-direction: column;
   align-items: center;
   width: 28%;
-  height: 300px;
   padding: 20px;
   background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s;
+
 }
 
 .film-item:hover {
@@ -65,4 +65,109 @@ h2 {
 .film-details p {
   margin: 5px 0;
   color: #777;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn-dt {
+  border: 0;
+  background-color: rgba(0, 0, 255, 0.715);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transform: 0.3s;
+
+}
+
+.btn-dt:hover {
+  transform: scale(1.05);
+}
+
+.film-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.film-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  background-color: royalblue;
+}
+
+.film-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.film-details {
+  margin-bottom: 16px;
+}
+
+.film-details h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.film-details p {
+  margin: 0;
+}
+
+.modal-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cancel {
+  background-color: #777;
+  margin-right: 20px;
+}
+
+.App-dark {
+  background-color: azure;
+  color: black;
+}
+
+.theme-btn {
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-theme {
+  background-color: black;
 }
