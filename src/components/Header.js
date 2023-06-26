@@ -30,6 +30,8 @@ export const Header = () => {
       >
         <NavItem onClick={() => navigate("/")}>Getting started</NavItem>
         <NavItem onClick={() => navigate("contact")}>Contact</NavItem>
+        <NavItem onClick={() => navigate("about")}>About</NavItem>
+        <NavItem onClick={() => navigate("news")}>News</NavItem>
       </Navbar>
     </div>
   );

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { films } from "./ListOfFilms";
-import { Film } from "./Film";
-import Contact from "./Contact ";
+import { films } from "../components/ListOfFilms";
+import { Film } from "../components/Film";
+import Contact from "./Contact";
 import { useNavigate } from "react-router-dom";
 import { Row, Col, Card, CardTitle, Icon, Button } from "react-materialize";
-import { Slider } from "./Slider";
-import { Header } from "./Header";
-import { FilmNew } from "./FilmNew";
+import { Slider } from "../components/Slider";
+import { Header } from "../components/Header";
+import { FilmNew } from "../components/FilmNew";
 
 export const Films = ({ toggleDark, theme }) => {
   console.log(theme);

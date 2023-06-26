@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import { Films } from "./components/Films";
+import { Films } from "./page/Films";
 import FilmDetail from "./components/FilmDetails";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Contact from "./components/Contact ";
+import Contact from "./page/Contact";
 import { FooterFilm } from "./components/Footer";
 import { Header } from "./components/Header";
+import { News } from "./page/News";
+import { About } from "./page/About";
 
 function App() {
   const [dark, setDark] = useState(true);
@@ -26,6 +28,8 @@ function App() {
             ></Route>
             <Route path="detail/:id" element={<FilmDetail />}></Route>
             <Route path="contact" element={<Contact />}></Route>
+            <Route path="news" element={<News />}></Route>
+            <Route path="about" element={<About />}></Route>
           </Routes>
           <FooterFilm />
         </BrowserRouter>
