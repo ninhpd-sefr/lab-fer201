@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./page/Contact";
 import { FooterFilm } from "./components/Footer";
 import { Header } from "./components/Header";
-import { News } from "./page/News";
-import { About } from "./page/About";
+import News from "./page/News";
+import About from "./page/About";
 
 function App() {
   const [dark, setDark] = useState(true);

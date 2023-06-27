@@ -157,3 +157,105 @@ export const filmsNew = [
     desc: "Episode EpisodeEpisodeEpisode Episode EpisodeEpisodeEpisode Episode Episode Episode Episode EpisodeEpisodeEpisode Episode",
   },
 ];
+
+export const listNews = [
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+  {
+    id: 1,
+    title: "Breaking News 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://znews-photo.zingcdn.me/w1200/Uploaded/natmts/2023_06_13/5869177ad42a0a74533b.jpg",
+    url: "https://example.com/news1",
+    category: "Politics",
+    date: "2023-06-13",
+    author: "John Doe",
+  },
+];
