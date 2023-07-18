@@ -12,8 +12,7 @@ const About = () => {
       <Row>
         <Col s={12} m={6}>
           <img
-            src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/302445068_3052441268381243_8009087776659967645_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=28-_S9CgzqQAX-F2_3O&_nc_ht=scontent.fsgn2-8.fna&oh=00_AfCbNoidO6NkGYOnDtpI7CNmdELx2pRnWfRVygY0nWnvWA&oe=649C0189"
-            alt="About Us"
+            src="https://66.media.tumblr.com/d7375c6c92fc45d4b04039a086cf671a/tumblr_pst63sxQ7J1vv14hj_540.png"
             className="about-image"
           />
         </Col>

@@ -57,12 +57,12 @@ h2 {
   transform: scale(1.05);
 }
 
-.film-image {
-  width: 100%;
+/* .film-image {
+  width: 100% !important;
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
-}
+} */
 
 /* FILM DETAILS */
 .film-details {
@@ -222,7 +222,8 @@ h2 {
 
 .film-image {
   width: 400px;
-  height: auto;
+  height: 500px;
+  object-fit: contain;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 

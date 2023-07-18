@@ -21,9 +21,6 @@ const FilmDetail = () => {
     setIsModalOpen(false);
   };
 
-  
-
-
   if (!film) {
     return <p>Loading film details...</p>;
   }
@@ -43,7 +40,7 @@ const FilmDetail = () => {
           </div>
         </div>
       </div>
-      {isModalOpen && <ModalVideo closeModal={handleCloseModal} />}
+      {isModalOpen && <ModalVideo film={film} closeModal={handleCloseModal} />}
     </div>
   );
 };
